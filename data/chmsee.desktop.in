@@ -6,5 +6,5 @@ Terminal=false
 Type=Application
 Icon=chmsee-icon
 StartupNotify=true
-Categories=Utility;
+Categories=GTK;Office;Utility;Viewer;
 MimeType=application/x-chm;
