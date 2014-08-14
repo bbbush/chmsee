@@ -86,7 +86,7 @@ NS_IMETHODIMP csChm::getAttribute(char **attr, char *m)
 }
 
 NS_IMPL_CLASSINFO(csChm, NULL, 0, CS_CHM_CID)
-NS_IMPL_ISUPPORTS1_CI(csChm, csIChm)
+NS_IMPL_ISUPPORTS_CI(csChm, csIChm)
 
 /* long openChm (in nsILocalFile file); */
 NS_IMETHODIMP csChm::OpenChm(nsILocalFile *file, const char *folder, int32_t *_retval)
