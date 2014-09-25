@@ -12,9 +12,9 @@ XPT = ${COMPONENTSDIR}/xpcomchm.xpt
 
 SDK_IDL = ${LIBXUL_SDK}/idl
 
-XPIDL_HEADER  = ${PYTHON2} ${LIBXUL_SDK}/sdk/bin/header.py
-XPIDL_TYPELIB = ${PYTHON2} ${LIBXUL_SDK}/sdk/bin/typelib.py
-XPT_LINK      = ${PYTHON2} ${LIBXUL_SDK}/sdk/bin/xpt.py link
+XPIDL_HEADER  = ${PYTHON2} ${LIBDIR}/header.py
+XPIDL_TYPELIB = ${PYTHON2} ${LIBDIR}/typelib.py
+XPT_LINK      = ${PYTHON2} ${LIBDIR}/xpt.py link
 
 MOZ_DEBUG_DISABLE_DEFS	= -DNDEBUG -DTRIMMED
 
